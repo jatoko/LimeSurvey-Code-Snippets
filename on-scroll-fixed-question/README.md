@@ -10,3 +10,8 @@ This code snippet fixes the question header's position when scrolling long answe
 1. Edit a question where question type is "Array".
 2. In the editor window click "Source".
 3. Insert JavaScript code snippet from [on_scroll_fixed.js](on_scroll_fixed.js).
+   ```HTML
+        <script>
+                Code Here
+        </script>
+    ```

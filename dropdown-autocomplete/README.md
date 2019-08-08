@@ -11,13 +11,8 @@ This code snippet converts a LimeSurvey List-Object (Dropdown) into a dropdown w
 1. Edit a question where question type is "List (dropdown)".
 2. In the editor window click "Source".
 3. Add JavaScript code snippet from [autocomplete.js](autocomplete.js) to the question text:
-   1. Remote:
-        ```HTML
-        <script src="https://raw.githubusercontent.com/jatoko/master/autocomplete.js"></script>
-        ```
-    2. Inline:
-        ```HTML
+   ```HTML
         <script>
                 Code Here
         </script>
-        ```
+    ```
