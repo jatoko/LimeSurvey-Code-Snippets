@@ -1,6 +1,9 @@
 # Surveycodings API integration in LimeSurvey
 This code snippet allows querying the [API of SurveyCodings](https://api.surveycodings.org) for elicitation of education, occupation and industry.
 
+![Autocomplete with surveycodings](autocomplete_surveycodings.png)
+
+
 ## SurveyCodings
 SurveyCodings is the result of the EU funded [seriss project](https://www.surveycodings.org/) that built a database of items to elicit demographic data. Items are available in multiple languages and allow cross-national comparisons of results.
 
