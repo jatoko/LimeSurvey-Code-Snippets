@@ -21,3 +21,11 @@ This repository provides a set of useful code snippets to customize the surveys 
     Adds endpoint names to a 5 point choice scale.
     
     ![Endpoint-named scale](./5-point-choice-endpoint-named-scale/endpoint_named_scale.png)
+
+## How to use it
+1. Enable javascript via admin panel first by disabling XSS-check for HTML. This **does not** influence XSS protection from respondents, but only from LimeSurvey users.
+2. Edit a question and click "Source":
+    ![Edit Question](edit_question_1.png)
+3. Insert 
+   ```<script> </script>``` and paste javascript from js-file.
+    ![Endpoint-named scale](edit_question_2.png) 
