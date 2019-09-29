@@ -1,6 +1,6 @@
 var scaleNameLeft = "left side text";
 var scaleNameRight = "right side text";
-$(document).on('ready pjax:scriptcomplete', function() {
+$(document).ready(function() {
     $('.ls-answers.answers-list.radio-list.list-unstyled.form-inline').each(function() {
         if ($(this).find(".answer-item.radio-item.scale-name-left").size() == 0) {
             $(this).prepend("<li class='answer-item radio-item scale-name-left'>" + scaleNameLeft + "</li>");

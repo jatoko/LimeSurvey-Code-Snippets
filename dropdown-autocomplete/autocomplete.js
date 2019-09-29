@@ -1,4 +1,4 @@
-$(document).on('ready pjax:scriptcomplete', function () {
+$(document).ready(function () {
     var select = $('select[name="{SGQ}"]');
     select.hide();
     // exract options:

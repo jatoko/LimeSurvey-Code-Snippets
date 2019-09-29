@@ -1,10 +1,9 @@
-$(document).on('ready pjax:scriptcomplete', function () {
-
+$(document).ready(function () {
     // Styles for the question header:
     var cssConf = {
-        'background-color': '#337AB7',
+        'background-color': '#fff',
         'border': '1px solid #e7e7e7',
-        'color': '#fff'
+        'color': '#000'
     };
 
     // The element to be fixed
