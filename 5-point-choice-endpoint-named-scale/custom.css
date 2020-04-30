@@ -1,0 +1,48 @@
+/* Likert Scale Stuff */
+
+.answer-item.radio-item.scale-name-left {
+    white-space: normal;
+    word-wrap: break-word;
+    padding-left: 0px;
+    top: 8px;
+}
+
+.answer-item.radio-item.scale-name-right {
+    white-space: normal;
+    word-wrap: break-word;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    top: 8px;
+}
+
+.radio-item label.likert::before {
+    content: unset;
+}
+
+.radio-item label.likert::after {
+    content: unset;
+}
+
+.radio-item label.likert {
+    text-align: center;
+}
+
+.radio-item input.likert[type="radio"] {
+    top: unset;
+    opacity: 100;
+    display: block;
+    position: static;
+}
+
+.radio-item.likert {
+    padding-left: unset;
+    margin-right: unset;
+}
+
+ul.radio-list.likert {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+}
