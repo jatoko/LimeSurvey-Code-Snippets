@@ -16,3 +16,4 @@ This code snippet adds endpoint names to the left and right to all questions of 
                 Code Here
         </script>
     ```
+4. Add the CSS code from the "custom.css" file to the "custom.css" of your limesurvey template.
